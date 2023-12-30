@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Navbar from '@/components/Navbar'
+import { Navbar, Footer, Hero } from '@/components'
+import Favicon from '../public/Images/favicon.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,6 +11,8 @@ export const metadata: Metadata = {
   description: 'Video Editor - One Stop solution for all your video design/editing needs.',
 }
 
+
+
 export default function RootLayout({
   children,
 }: {
@@ -17,9 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className='container mx-auto min-h-screen bg-no-repeat bg-center bg-cover bg-fixed dark:bg-homeTwoBg-dark md:pb-16 w-full ' >
         <Navbar />
-        {children}
+        <Hero />
+        {children }
+        <Footer />
       </body>
     </html>
   )
