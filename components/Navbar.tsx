@@ -7,7 +7,7 @@ import {CrossIcon, BarIcon} from '../public'
 
 const Navbar = () => {
 
-  const [toggleMenu, setToggleMenu] = useState(false)
+  // const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
     <header>
