@@ -6,7 +6,7 @@ import { Navbar, Button } from '../../components'
 
 
 const Header = () => {
-  const [toggleMenu, setToggleMenu] = useState(true)
+  const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
     <>
