@@ -1,17 +1,15 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import { Navbar, Footer, Hero } from '@/components'
-import Favicon from '../public/Images/favicon.png'
+import { Header, Footer} from '../components'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Amar Portfolio',
-  description: 'Video Editor - One Stop solution for all your video design/editing needs.',
+  title: `Amar's Portfolio`,
+  description: 'Amar Editz - One Stop Solution for all your Video Editing Needs.',
 }
-
-
 
 export default function RootLayout({
   children,
@@ -20,10 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='container mx-auto min-h-screen bg-no-repeat bg-center bg-cover bg-fixed dark:bg-homeTwoBg-dark md:pb-16 w-full ' >
-        <Navbar />
-        <Hero />
-        {children }
+      <body className='container px-4 mx-auto w-full h-svh'>
+        <Header />
+        {children}
         <Footer />
       </body>
     </html>

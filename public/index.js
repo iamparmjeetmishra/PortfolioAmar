@@ -21,6 +21,9 @@ import EmailIcon from './icons/EmailIcon'
 import NameIcon from './icons/NameIcon'
 import TextAreaIcon from './icons/TextAreaIcon'
 
+import Logo from './Img/Logo.png'
+
+
 export  {
     Sun,
     Moon,
@@ -44,4 +47,6 @@ export  {
     EmailIcon,
     NameIcon,
     TextAreaIcon,
+
+    Logo,
 }
