@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .Link {
+      @apply flex items-center gap-3 font-semibold px-4 py-2 
+      md:border-2 md:border-b-4 md:border-e-4 border-transparent  rounded-full md:hover:border-b-4 md:hover:border-e-4 hover:border-black md:hover:bg-cream
+      
+  }
+}
+
+@layer utilities {
+  body {
+      @apply bg-cream
+  }
+}
