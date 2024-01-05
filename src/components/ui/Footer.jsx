@@ -1,8 +1,12 @@
-import React from 'react'
+
+const d = new Date();
+let year = d.getFullYear();
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="font-medium py-6 border-y-2 text-center">
+      © {year} All Rights Reserved | Made with ♡ by <a href="https://parmjeetmishra.com" target="_blank" className="text-slate-500 hover:text-cyan-600 " >Parm</a>
+    </footer>
   )
 }
 
