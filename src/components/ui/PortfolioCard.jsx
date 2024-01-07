@@ -1,8 +1,10 @@
-import React from 'react'
 
-const PortfolioCard = () => {
+
+const PortfolioCard = ({...props}) => {
   return (
-    <div>PortfolioCard</div>
+    <div className="rounded-lg border-2 w-1/3">
+      {props}
+    </div>
   )
 }
 
