@@ -2,13 +2,13 @@
 import { z } from 'zod'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { useState } from 'react'
+// import { useState } from 'react'
 // import { IoMdClose } from "react-icons/io";
 
 
 
 export default function Form() {
-    const [formData, setFormData] = useState('')
+    // const [formData, setFormData] = useState('')
 
     const schema = z.object({
         fullName: z.string().min(3).max(30),
