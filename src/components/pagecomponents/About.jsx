@@ -6,9 +6,9 @@ import ProfilePic from '/public/Img/MyProfile.jpg'
 
 import Socials from '../ui/Socials'
 
-let ytSrc = 'youtube/_cMxraX_5RE'
-let title = 'Sprite Fight'
-let thumb = 'https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt'
+let ytSrc = 'youtube/gZHhPFbci2c'
+let title = 'Intro to Amar Editz'
+let thumb = ''
 
 
 

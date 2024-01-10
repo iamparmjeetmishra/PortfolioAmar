@@ -3,8 +3,10 @@ import Link from 'next/link'
 import VideoPlayer from '../ui/VideoPlayer'
 // import PortfolioCard from '../ui/PortfolioCard'
 
-let ytSrc = 'youtube/_cMxraX_5RE'
-let title = 'Sprite Fight'
+// https://youtu.be/gZHhPFbci2c?si=fHQJfpCL4bfgG0xZ
+
+let ytSrc = 'youtube/gZHhPFbci2c'
+let title = 'Intro To Amar Editz'
 let thumb = 'https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt'
 
 
