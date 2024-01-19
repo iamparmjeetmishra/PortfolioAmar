@@ -1,9 +1,9 @@
+import VideoPlayer from '../ui/VideoPlayer'
 
 
-const PortfolioCard = ({...props}) => {
+const PortfolioCard = ({className, ...props}) => {
   return (
     <div className="rounded-lg border-2 w-1/3">
-      {props}
     </div>
   )
 }

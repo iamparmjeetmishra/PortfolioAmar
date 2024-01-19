@@ -1,15 +1,16 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+
 import VideoPlayer from '../ui/VideoPlayer'
 import ProfilePic from '/public/Img/MyProfile.jpg'
 
 import Socials from '../ui/Socials'
 
+
 let ytSrc = 'youtube/gZHhPFbci2c'
 let title = 'Intro to Amar Editz'
-let thumb = ''
-
+let thumb = 'https://ik.imagekit.io/parmjeet/Amar/Intro.jpg?updatedAt=1705668953029'
 
 
 
@@ -28,7 +29,7 @@ const About = ({id, className}) => {
           <button className='font-bold px-3.5 rounded-full py-2 border-2 border-white transition-all hover:bg-white hover:text-black hover:border-white  '><Link href="#portfolio">Check Out My Work</Link></button>
         </div>
         <div className='w-5/6 mt-16 mx-auto'>
-          <VideoPlayer ytSrc={ytSrc} title={title} thumb={thumb} />
+          <VideoPlayer ytSrc={ytSrc} autoplay title={title} thumb={thumb}  />
         </div>
       </div>
     </section>
